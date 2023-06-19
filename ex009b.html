@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paises de Origem</title>
+</head>
+<body>
+    <h1>Sistema de controle de Origem </h1>
+    Pais de Origem <input type="text" name="txtvel" id="txtvel">
+    <input type="button" value="Verificar" onclick="calcular">
+
+    <div id="res">
+
+    </div>
+
+    <script>
+        function calcular() {
+            var txtv = window.document.querySelector('input#txtvel')
+            var res = window.document.querySelector('div#res')
+            var pais = 'Brasil'
+            res.innerHTML = `<p>Vivendo em ${pais}</p>`
+
+            if (pais += 'Brasil') {
+                res.innerHTML == 'Você é Brasileiro'
+            } 
+            res.innerHTML ==  'Você é Estrangeiro'
+            
+        }
+    </script>
+</body>
+</html>
